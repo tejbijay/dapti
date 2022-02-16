@@ -1,0 +1,11 @@
+{
+  "name": "dapti",
+  "version": "1.0.0",
+  "description": "cv maker and job search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tej",
+  "license": "ISC"
+}

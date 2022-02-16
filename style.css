@@ -1,0 +1,33 @@
+#body{
+    background-color: lightblue;
+    justify-content: center;
+}
+#heading .mainName{
+    color: red;
+    text-align: center;
+    font-size: 60px;
+}
+#heading .create{
+    text-align: center;
+}
+
+#basic{
+    /* text-align: center; */
+    background-color: springgreen;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+#display_image{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    float: right;
+
+}
+
