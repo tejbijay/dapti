@@ -18,6 +18,12 @@
     margin-right: 100px;
 }
 
+#basic .basic_info{
+    text-align: center;
+}
+#basic .basic_input{
+    margin-left: 100px;
+}
 
 
 #display_image{
