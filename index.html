@@ -9,105 +9,133 @@
     <script src="https://kit.fontawesome.com/add1f5cacc.js" crossorigin="anonymous"></script>
 </head>
 <body id="body">
-    <div id="heading">
+    <div id="header">
         <h1 class="mainName">Dapti</h1>
         <hr> 
         <h4 class="create">Create your resumes fast and in a simple way</h4>
     </div>
 
-   
+   <!-- Basic Information-->
     <div id="basic">
         <h2 class="basic_info">Basic Information</h2><br><br>
         <form>
                
                 
-                   <div id="display_image">
-                       
-               
-                       <!-- <i class="fa-solid fa-images"></i> -->
+                   <div id="display_image">             
                    </div>
                    
               
            <div class="basic_input">
-               <label>First Name:</label>
-            <input type="text" id="fname" name="fname">
+                <label class="basic_label">First Name:</label>
+                <input type="text" id="fname" class="basic_align" name="fname" placeholder="Enter your First Name">
            </div>
            <br>
            
             <div class="basic_input">
-                <label>Middle Name:</label>
-            <input type="text" id="mname" name="mname">
+                <label class="basic_label">Middle Name:</label>
+                <input type="text" id="mname" class="basic_align" name="mname" placeholder="Enter your Middle Name">
             </div>
             <br>
 
            <div class="basic_input">
-               <label>Last Name:</label>
-           <input type="text" id="lname" name="lname">
+                <label class="basic_label">Last Name:</label>
+                <input type="text" id="lname"class="basic_align" name="lname" placeholder="Enter your Last Name">
            </div>
         
 
            <br>
 
-            <input type="file" id="image_input"class="basic_input" value="Upload Image" accept="image/JPG, image/png">
+           <input type="file" id="image_input"class="basic_input" value="Upload Image" accept="image/JPG, image/png">
            
             <br><br>
             
             <div class="basic_input">
-                <label>Enter your date of birth:</label>
-                <input type="date" id="dob" name="dob">
+                <label class="basic_label">Enter your date of birth:</label>
+                <input type="date" id="dob" class="basic_align" name="dob">
             </div>
 
             <br>
 
             <div class="basic_input">
-                <label>Enter your contact number:</label>
-                <input type="text" id="con" name="con">
+                <label class="basic_label">Enter your Contact Address:</label>
+                <input type="text" id="conad" class="basic_align" name="conad" placeholder="Enter your Contact Address">
             </div>
 
             <br>
 
             <div class="basic_input">
-                <label>Enter your contact number:</label>
-                <input type="text" id="con" name="con">
+                <label class="basic_label">Enter your E-mail address:</label>
+                <input type="text" id="email" class="basic_align" name="email" placeholder="Enter your E-mail Address">
             </div>
 
             <br>
 
             <div class="basic_input">
-                <label>Enter your E-mail address:</label>
-                <input type="text" id="email" name="email">
+                <label class="basic_label">Enter your Address line 1:</label>
+                <input type="text" id="address1"class="basic_align" name="address1" placeholder="Enter your Address 1">
             </div>
 
             <br>
 
             <div class="basic_input">
-                <label>Enter your Address line 1:</label>
-                <input type="text" id="address1" name="address1">
+                <label class="basic_label">Enter your Address line 2:</label>
+                <input type="text" id="address2" class="basic_align"name="address2" placeholder="Enter your Address 2">
             </div>
 
             <br>
 
             <div class="basic_input">
-                <label>Enter your Address line 2:</label>
-                <input type="text" id="address2" name="address2">
-            </div>
-
-            <br>
-
-            <div class="basic_input">
-                <label>Enter your Address line 3:</label>
-                <input type="text" id="address3" name="address3">
+                <label class="basic_label">Enter your Address line 3:</label>
+                <input type="text" id="address3"class="basic_align" name="address3" placeholder="Enter your Address 3">
             </div>
 
             <br>
         
-            
-            <input type="submit" value="SUBMIT"><br>
       
         </form>     
     </div>
-  
-    
+
+    <!-- Academic Information-->
+
+    <div id="academic">
+
+
+        <h2 class="academic_info">Academic Information</h2><br><br>
+        <form id="academic_form">
+            <div id="academic_resize">
+                <div class="academic_input">
+                    <label class="academic_label">Enter your Course Name:</label><br><br>
+                    <input type="text" class="academic_align" placeholder="Enter you Course Name">  
+                </div>
+
+                <br>
+
+                <div class="academic_input">
+                    <label class="academic_label">Enter your Institute Name:</label><br><br>                 
+                    <input type="text" class="academic_align" placeholder="Enter your Institute Name">
+                </div>
+            </div>
+            <br><br>
+            
+            <div id="start_end_date">
+                <div class="start_date">
+                    <label class="select_start">Select start Date:</label><br><br>
+                    <input type="date" class="select_date">
+                </div>
+
+                <div class="end_date">
+                    <label class="select_end">Select End Date</label><br><br>
+                    <input type="date"class="select_date">
+                </div>
+            </div>
+      <br>
+
+      <input type="button" id="btnAddAcademic" value="Add Academic">
+        </form>     
+    </div>
+
+
+   
     
     <script src="app.js"></script>
     

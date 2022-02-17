@@ -1,28 +1,40 @@
 #body{
-    background-color: lightblue;
+    background-color: white;
     justify-content: center;
 }
-#heading .mainName{
+#header .mainName{
     color: red;
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
 }
-#heading .create{
+#header .create{
     text-align: center;
 }
 
 #basic{
     /* text-align: center; */
-    background-color: springgreen;
+    background-color: lightskyblue;
     margin-left: 100px;
     margin-right: 100px;
 }
 
 #basic .basic_info{
     text-align: center;
+    font-size: 40px;
 }
 #basic .basic_input{
     margin-left: 100px;
+}
+
+
+
+#basic .basic_align{
+    margin-left: 20%;
+    display: flex;
+    position: relative;
+    margin-top: -2%;
+    font-size: 15px;
+    border-radius: 10px; 
 }
 
 
@@ -37,3 +49,54 @@
 
 }
 
+#submit{
+    margin-left: 50%;
+    font-size: 25px;
+}
+
+
+
+
+#academic{
+    /* text-align: center; */
+    background-color: lightskyblue;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#academic .academic_info{
+    text-align: center;
+    font-size: 40px;
+}
+#academic .academic_input{
+    margin-left: 100px;
+}
+
+#academic_resize{
+    margin-left: 20%;
+    display: flex;
+    position: relative;
+}
+
+#academic .academic_align{
+    display: flex;
+    position: relative;
+    margin-top: -2%;
+    font-size: 15px;
+    border-radius: 10px; 
+}
+
+#start_end_date{
+    margin-left: 29%;
+    display: flex;
+    position: relative;
+   
+}
+
+.end_date{
+    margin-left: 21%;
+}
+
+#btnAddAcademic{
+    margin-left: 45%;
+}
