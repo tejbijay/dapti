@@ -13,8 +13,9 @@
         <h1 class="mainName">Dapti</h1>
         <hr> 
         <h4 class="create">Create your resumes fast and in a simple way</h4>
+        <hr> 
     </div>
-
+    <form id="main_input">
    <!-- Basic Information-->
     <div id="basic">
         <h2 class="basic_info">Basic Information</h2><br><br>
@@ -101,6 +102,7 @@
 
 
         <h2 class="academic_info">Academic Information</h2><br><br>
+        <hr>
         <form id="academic_form">
             <div id="academic_resize">
                 <div class="academic_input">
@@ -130,11 +132,89 @@
             </div>
       <br>
 
+      <input type="button" id="btnDeleteAcademic" value="Delete Academic">
+<hr>
       <input type="button" id="btnAddAcademic" value="Add Academic">
         </form>     
     </div>
 
+    <!-- Work Experience-->
 
+    <div id="work">
+
+
+        <h2 class="work_info">Work Experience</h2><br><br>
+        <hr>
+        <form id="work_form">
+            <div id="work_resize">
+                <div class="work_input">
+                    <label class="work_label">Enter your Company Name:</label><br><br>
+                    <input type="text" class="work_align" placeholder="Enter Company Name">  
+                </div>
+
+                <br>
+
+                <div class="work_input">
+                    <label class="work_label">Enter your Position :</label><br><br>                 
+                    <input type="text" class="work_align" placeholder="Enter your Position">
+                </div>
+            </div>
+            <br><br>
+            
+            <div id="start_end_date_work">
+                <div class="start_date">
+                    <label class="select_start">Select start Date:</label><br><br>
+                    <input type="date" class="select_date">
+                </div>
+
+                <div class="end_date">
+                    <label class="select_end">Select End Date</label><br><br>
+                    <input type="date"class="select_date">
+                </div>
+            </div>
+      <br>
+
+      <input type="button" id="btnDeleteWork" value="Delete Work">
+<hr>
+      <input type="button" id="btnAddWork" value="Add Work">
+        </form>     
+    </div>
+
+<!-- Skills-->
+
+<div id="skills">
+
+    <h2 class="skills_info">Skills Information</h2>
+    <hr>
+    <form id="skills_form">
+        <div id="input_skills">
+            <label>Add your skills:</label>
+            <input type="text" placeholder="Enter your Skills" >
+        </div>
+    </form>
+</div>
+
+<!--Hobbies-->
+
+    <div id="hobbies">
+
+        <h2 class="hobbies_info">Hobbies And Interests</h2>
+        <hr>
+        <form id="hobbies_form">
+            <div id="input_hobbies">
+                <label>Enter your Hobbies and Interests: </label>
+                <input type="text" placeholder="Enter your Hobbies and Interests">
+            </div>
+        </form>
+
+    </div>
+</form>
+    <br>
+    
+    <div class="output"></div>
+
+    <input type="submit" id="submit" value="Create PDF and Download">
+    <button onclick="window.print()">Create PDF and Download</button>
    
     
     <script src="app.js"></script>

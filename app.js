@@ -9,3 +9,9 @@ image_input.addEventListener("change",function(){
     });
     reader.readAsDataURL(this.files[0]);
 })
+
+const inputfields = document.querySelector('#main_input');
+const output = document.querySelector('#output');
+
+let inputShow = true;
+

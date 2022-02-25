@@ -5,7 +5,7 @@
 #header .mainName{
     color: red;
     text-align: center;
-    font-size: 80px;
+    font-size: 60PX;
 }
 #header .create{
     text-align: center;
@@ -98,5 +98,91 @@
 }
 
 #btnAddAcademic{
+    margin-left: 45%;
+}
+
+#btnDeleteAcademic{
+    margin-left: 45%;
+}
+
+
+#skills{
+    /* text-align: center; */
+    background-color: lightskyblue;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#skills .skills_info{
+    text-align: center;
+    font-size: 40px;
+}
+
+#input_skills{
+    text-align: center;
+}
+
+#hobbies{
+    /* text-align: center; */
+    background-color: lightskyblue;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#hobbies .hobbies_info{
+    text-align: center;
+    font-size: 40px;
+}
+
+#input_hobbies{
+    text-align: center;
+}
+
+
+#work{
+    /* text-align: center; */
+    background-color: lightskyblue;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#work .work_info{
+    text-align: center;
+    font-size: 40px;
+}
+#work .work_input{
+    margin-left: 100px;
+}
+
+#work_resize{
+    margin-left: 20%;
+    display: flex;
+    position: relative;
+}
+
+#work .work_align{
+    display: flex;
+    position: relative;
+    margin-top: -2%;
+    font-size: 15px;
+    border-radius: 10px; 
+}
+
+#start_end_date_work{
+    margin-left: 29%;
+    display: flex;
+    position: relative;
+   
+}
+
+.end_date{
+    margin-left: 21%;
+}
+
+#btnAddWork{
+    margin-left: 45%;
+}
+
+#btnDeleteWork{
     margin-left: 45%;
 }
