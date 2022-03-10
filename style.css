@@ -186,3 +186,12 @@
 #btnDeleteWork{
     margin-left: 45%;
 }
+
+
+/* after clicking on preview or edit button */
+
+.hero{
+    /* background-color: black; */
+    text-align: center;
+    /* color: white; */
+}

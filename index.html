@@ -15,14 +15,14 @@
         <h4 class="create">Create your resumes fast and in a simple way</h4>
         <hr> 
     </div>
-    <form id="main_input">
+    <form class="main_input">
    <!-- Basic Information-->
     <div id="basic">
         <h2 class="basic_info">Basic Information</h2><br><br>
         <form>
                
                 
-                   <div id="display_image">             
+                   <div id="display_image" name="image">             
                    </div>
                    
               
@@ -46,7 +46,7 @@
 
            <br>
 
-           <input type="file" id="image_input"class="basic_input" value="Upload Image" accept="image/JPG, image/png">
+           <input type="file" id="image_input"class="basic_input" name="image "value="Upload Image" accept="image/JPG, image/png">
            
             <br><br>
             
@@ -65,7 +65,7 @@
             <br>
 
             <div class="basic_input">
-                <label class="basic_label">Enter your E-mail address:</label>
+		<label class="basic_label">Enter your E-mail address:</label>
                 <input type="text" id="email" class="basic_align" name="email" placeholder="Enter your E-mail Address">
             </div>
 
@@ -210,14 +210,18 @@
     </div>
 </form>
     <br>
-    
+
     <div class="output"></div>
 
-    <input type="submit" id="submit" value="Create PDF and Download">
-    <button onclick="window.print()">Create PDF and Download</button>
+    <!-- <input type="submit" id="submit" value="Create PDF and Download"> -->
+    <!-- <button onclick="window.print()">Create PDF and Download</button> -->
    
+<div class="btn">
+    <button onclick="toggle()">Preview or Edit</button>
+
+</div>
     
-    <script src="app.js"></script>
+    <script src="./app.js"></script>
     
 </body>
 </html>
