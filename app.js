@@ -23,15 +23,20 @@ function toggle(){
         maininput.style.display = "none";
         inputShow = false;
         output.innerHTML=`
-        <div class="hero">
+        <div class="ek">
             ${maininput["#display_image"]}
             <h1>${maininput["fname"].value}</h1>
             <h2>${maininput["mname"].value}</h2>
             <h3>${maininput["lname"].value}</h3>
         </div>
 
-        <div>
-
+        <div class="dui">
+            <h3>${maininput["dob"].value}</h3>
+            <h3>${maininput["conad"].value}</h3>
+            <h3>${maininput["email"].value}</h3>
+            <h3>${maininput["address1"].value}</h3>
+            <h3>${maininput["address2"].value}</h3>
+            <h3>${maininput["address3"].value}</h3>
         </div>
         <div class="btn">
             <button onclick="print()">Print Resume</button>

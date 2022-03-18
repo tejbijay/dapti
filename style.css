@@ -190,8 +190,13 @@
 
 /* after clicking on preview or edit button */
 
-.hero{
-    /* background-color: black; */
+.ek{
+    background-color: black;
     text-align: center;
-    /* color: white; */
+    color: white;
+}
+
+.dui{
+    text-align: center;
+
 }
