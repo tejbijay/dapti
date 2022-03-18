@@ -44,6 +44,9 @@ function toggle(){
 
         <div class="tin">
             <h3>Course: ${maininput["course_name"].value}</h3>
+            <h3>Institute Name: ${maininput["academic_name"].value}</h3>
+            <h3> Start Date: ${maininput["aca_start"].value}</h3>
+            <h3> End Date: ${maininput["aca_end"].value}</h3>
         </div>
 
         <div class="btn">
