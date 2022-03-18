@@ -190,10 +190,19 @@
 
 /* after clicking on preview or edit button */
 
-.ek{
-    background-color: black;
+.resume{
     text-align: center;
-    color: white;
+    font-size: 400%;
+    color: red;
+}
+
+.ek{
+    /* background-color: black; */
+    text-align: center;
+    /* color: white; */
+    text-align: left;
+    padding-left: 30%;
+    /* display: contents; */
 }
 
 .dui{
