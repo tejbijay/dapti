@@ -14,6 +14,7 @@ image_input.addEventListener("change",function(){
 // main code
 
 const maininput = document.querySelector('.main_input');
+const button = document.querySelector('.btn');
 const output = document.querySelector('.output');
 
 let inputShow = true;
@@ -21,6 +22,7 @@ let inputShow = true;
 function toggle(){
     if(inputShow){
         maininput.style.display = "none";
+        button.style.display = "none";
         inputShow = false;
         output.innerHTML=`
         <h1 class = "resume">RESUME</H1>
@@ -49,12 +51,13 @@ function toggle(){
             <h3> End Date: ${maininput["aca_end"].value}</h3>
         </div>
 
-        <div class="btn">
+        <div class="btn_p">
             <button onclick="print()">Print Resume</button>
         </div>
         `
     } else{
         maininput.style.display = "block"
+        button.style.display = "block"
         inputShow = true
         output.innerHTML=""
     }
